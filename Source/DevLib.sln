@@ -3,9 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2EEFB663-83BF-4A18-B20A-2F4BC45F6274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{9E1CF1C5-CDA9-4F1B-8D22-0E873486A9B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETCore2", "NETCore2", "{A02B4532-7E87-4778-9615-CC09B49745A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET20", "NET20", "{E466D2D9-D334-42C8-99A5-BE13CFFB0A30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET40", "NET40", "{85103909-196A-4A20-807D-AA187DCF8158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevLib.Samples.NET20", "DevLib.Samples.NET20\DevLib.Samples.NET20.csproj", "{28B10CA5-E761-4F36-A2F8-9F9A948616DA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DevLib.AddIn.Shared", "DevLib.AddIn.Shared\DevLib.AddIn.Shared.shproj", "{27DD4F1B-9FF3-4997-A252-2DA656E51C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevLib.AddIn.NET20", "DevLib.AddIn.NET20\DevLib.AddIn.NET20.csproj", "{5A052CC5-B1AE-4B12-910B-45EAE77D4C65}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DevLib.Main.Shared", "DevLib.Main.Shared\DevLib.Main.Shared.shproj", "{F965825B-2D9C-4CDE-907A-911272683869}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DevLib.AddIn.Shared\DevLib.AddIn.Shared.projitems*{27dd4f1b-9ff3-4997-a252-2da656e51c6f}*SharedItemsImports = 13
+		DevLib.AddIn.Shared\DevLib.AddIn.Shared.projitems*{5a052cc5-b1ae-4b12-910b-45eae77d4c65}*SharedItemsImports = 4
+		DevLib.Main.Shared\DevLib.Main.Shared.projitems*{5a052cc5-b1ae-4b12-910b-45eae77d4c65}*SharedItemsImports = 4
+		DevLib.Main.Shared\DevLib.Main.Shared.projitems*{f965825b-2d9c-4cde-907a-911272683869}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A052CC5-B1AE-4B12-910B-45EAE77D4C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A052CC5-B1AE-4B12-910B-45EAE77D4C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A052CC5-B1AE-4B12-910B-45EAE77D4C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A052CC5-B1AE-4B12-910B-45EAE77D4C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B10CA5-E761-4F36-A2F8-9F9A948616DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B10CA5-E761-4F36-A2F8-9F9A948616DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B10CA5-E761-4F36-A2F8-9F9A948616DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B10CA5-E761-4F36-A2F8-9F9A948616DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A02B4532-7E87-4778-9615-CC09B49745A9} = {9E1CF1C5-CDA9-4F1B-8D22-0E873486A9B2}
+		{E466D2D9-D334-42C8-99A5-BE13CFFB0A30} = {9E1CF1C5-CDA9-4F1B-8D22-0E873486A9B2}
+		{85103909-196A-4A20-807D-AA187DCF8158} = {9E1CF1C5-CDA9-4F1B-8D22-0E873486A9B2}
+		{27DD4F1B-9FF3-4997-A252-2DA656E51C6F} = {2EEFB663-83BF-4A18-B20A-2F4BC45F6274}
+		{5A052CC5-B1AE-4B12-910B-45EAE77D4C65} = {E466D2D9-D334-42C8-99A5-BE13CFFB0A30}
+		{F965825B-2D9C-4CDE-907A-911272683869} = {2EEFB663-83BF-4A18-B20A-2F4BC45F6274}
+		{28B10CA5-E761-4F36-A2F8-9F9A948616DA} = {E466D2D9-D334-42C8-99A5-BE13CFFB0A30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {143ED111-1489-4D00-9221-FE648D146F58}
