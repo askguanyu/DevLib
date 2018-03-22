@@ -8,6 +8,4 @@ It is time to boost your productivity.
 # Donation 
 DevLib is a personal open source project. Started in 2007, I have put hundreds of hours adding, refining and tuning DevLib with the goal to make it the best reusable library for .NET. I need your help to achieve this.
 
-<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=L473J8JFH3DS4" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt=""><br>
-<br>
-</a></p>
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L473J8JFH3DS4" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate"></a></p>
